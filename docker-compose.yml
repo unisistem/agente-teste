@@ -1,0 +1,10 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python_agent_api
+    network_mode: host   # usa a rede do host — localhost:11434 funciona direto
+    env_file:
+      - .env
+    restart: unless-stopped
