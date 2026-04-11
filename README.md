@@ -11,4 +11,4 @@ Solução simples e documentada para o desafio de agente Python com orquestraç�
 
 ## Diagrama do Projeto
 
-<img>diagrama.svg</img>
+<img src='diagrama.svg' alt='Diagrama do LLM'>
