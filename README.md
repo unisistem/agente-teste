@@ -9,4 +9,6 @@ Solução simples e documentada para o desafio de agente Python com orquestraç�
 - **Ollama** - LLM local (modelo `qwen2.5:1.5b`)
 - **Requests** - chamadas HTTP
 
-## Estrutura do Projeto
+## Diagrama do Projeto
+
+<img>diagrama.svg</img>
