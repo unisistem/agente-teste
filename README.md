@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🤖 Python Agent
-### Desafio Técnico A2 — Backend com Orquestração de IA
+### Desafio Técnico — Backend com Orquestração de IA
 
 [![Python](https://img.shields.io/badge/Python-3.12-3776AB?style=flat-square&logo=python&logoColor=white)](https://python.org)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
@@ -251,7 +251,7 @@ curl -s -X POST http://localhost:8000/messages \
 Copie `.env.example` para `.env` e ajuste conforme necessário:
 
 ```env
-KB_URL=https://unisistem.com.br/python_agent_knowledge_base.md
+KB_URL=https://URL/python_agent_knowledge_base.md
 
 LLM_PROVIDER=ollama
 LLM_MODEL=qwen2.5:1.5b
