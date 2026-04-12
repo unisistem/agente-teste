@@ -123,7 +123,7 @@ python-agent/
 
 ---
 
-## Regras do flux
+## ⚙️ Regras de decisao do fluxo
 
 Documentadas em `app/orchestrator.py`:
 
