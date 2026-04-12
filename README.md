@@ -25,7 +25,7 @@ API Python com orquestração de fluxo por IA, base de conhecimento em Markdown 
 - [Fluxo de dados](#-fluxo-de-dados)
 - [Tecnologias](#-tecnologias)
 - [Estrutura de arquivos](#-estrutura-de-arquivos)
-- [Regras de decisão do fluxo](#-regras-de-decisão-do-fluxo)
+- [Regras de decisão do fluxo](#-regras-de-decisao-do-fluxo)
 - [Pré-requisitos](#-pré-requisitos)
 - [Como subir](#-como-subir)
 - [Como testar](#-como-testar)
