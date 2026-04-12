@@ -337,5 +337,5 @@ make down
 ---
 
 <div align="center">
-  <sub>Desenvolvido para o Desafio Técnico A2</sub>
+  <sub>Desenvolvido para o Desafio Técnico</sub>
 </div>
