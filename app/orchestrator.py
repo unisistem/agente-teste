@@ -17,7 +17,7 @@ Regras de decisão:
 import logging
 from typing import Dict, List, Any, Optional
 
-from app.kb_tool import search_kb
+from app.kb_tool import query_kb
 from app.llm_client import call_llm
 from app.session import session_manager
 
@@ -89,7 +89,7 @@ def process_message(
     logger.info("Processando mensagem: %s", message[:80])
 
     # --- Etapa 1: Buscar contexto na KB ---
-    sections = search_kb(message)
+    sections = query_kb(message)
 
     # --- Etapa 2: Verificar contexto da sessão ---
     session_context = ""
