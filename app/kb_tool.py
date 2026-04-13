@@ -67,5 +67,3 @@ def query_kb(question: str) -> list[dict]:
     scored.sort(key=lambda x: x[1], reverse=True)
     relevant = [s for s, score in scored if score >= 2]
     return relevant[:MAX_SECTIONS]
-# Alias para compatibilidade com o orchestrator
-search_kb = query_kb
